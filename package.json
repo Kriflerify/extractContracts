@@ -1,0 +1,14 @@
+{
+  "name": "extractContracts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "prompt-sync": "^4.2.0"
+  },
+  "scripts": {
+    "extract:mainnet": "node index.js input/data.mainnet.csv mainnet"
+  }
+}
